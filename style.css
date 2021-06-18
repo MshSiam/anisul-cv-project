@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5{
+    color: rgb(4, 95, 117);
+    padding-left: 20px ;
+    margin-bottom: 10px;
+}
+.ps{
+    padding-left: 20px;
+}
+
+body{
+    background-color:rgb(214, 195, 248);
+    font-family:'Roboto', sans-serif; ;
+    
+}
+
+.container{
+    max-width: 1380px;
+    background-color: rgb(178, 169, 185);
+    margin: 0 auto;
+}
+
+.profile{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+}
+
+.bio{
+    float: left;
+    padding-top: 100px;    
+}
+.contact{
+    float: right;
+    margin-top:70px ;
+    line-height: 40px;
+    margin-right: 20px;
+    
+}
+
+.contact a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 5px solid black;
+    width: 50%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+
+/* main Div */
+
+/* Personal section */
+
+
+.content{
+    padding-bottom: 30px;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 50px auto;
+}
+
+/*  education part */
+.one{
+    float: left;
+    width: 45%;
+}
+
+.two{
+    float: left;
+    width: 45%;
+}
+
+/*  */
+
+footer{
+    background-color: rgb(51, 51, 51);
+    
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+
+footer p {
+    color: #fff;
+    margin-top:10px;
+}
